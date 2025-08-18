@@ -5,8 +5,6 @@ body {
 .content-container {
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
-    margin-right: 150px;
 }
 
 .header {
@@ -20,6 +18,9 @@ body {
 .header-start {
     display: flex;
     justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
 }
 
 .header-links {
@@ -29,6 +30,11 @@ body {
 
 .hero {
     display: flex;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 90px;
+    margin-top: 90px;
 }
 
 #logo {
@@ -40,6 +46,14 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+#hero-img {
+    background-color: grey;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 p {

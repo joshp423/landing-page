@@ -56,6 +56,13 @@ body {
     padding-right: 130px;
 }
 
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: hidden;
+    color: #E5E7EB;
+}
+
 p {
     margin: 0;
 }

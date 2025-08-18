@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', 'Times New Roman';
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+p {
+    margin: 0;
+}

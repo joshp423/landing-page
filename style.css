@@ -63,6 +63,48 @@ body {
     gap: 10px;
     
 }
+
+.box-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 160px;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+}
+
+.box {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border: solid 3px #3882F6;
+    border-radius: 10px;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-wrap: wrap;
+    width: auto;
+    gap: 10px;
+}
+
+#box-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 button {
     background-color: #3882F6;
     border-radius: 5px;
@@ -82,6 +124,10 @@ p {
 
 h1 {
     margin: 0;
+}
+
+img {
+    margin: ;
 }
 
 

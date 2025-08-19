@@ -72,7 +72,7 @@ body {
     gap: 50px;
     margin-left: 400px;
     margin-right: 400px;
-    margin-bottom: 110px;
+    margin-bottom: 120px;
 }
 
 .boxes {
@@ -107,8 +107,30 @@ body {
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.quote-content {
     display: flex;
     flex-direction: column;
+    margin-top: 120px;
+    gap: 10px;
+    margin-left: 325px;
+    margin-right: 325px;
+    margin-bottom: 100px;
+    justify-content: left;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-attribution {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 button {

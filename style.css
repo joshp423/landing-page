@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', 'Times New Roman';
+    margin: 0;
 }
 
 .content-container {
@@ -168,6 +169,15 @@ body {
     
 }
 
+.footer {
+    background-color: #1F2937;
+}
+
+#footer-text {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+}
 button {
     background-color: #3882F6;
     border-radius: 5px;

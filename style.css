@@ -31,6 +31,7 @@ body {
 .hero {
     display: flex;
     gap: 50px;
+    justify-content: space-between;
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 120px;
@@ -133,6 +134,40 @@ body {
     font-size: 20px;
 }
 
+.cta-section {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.cta-text {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+#cta-header {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#cta-button {
+    border: solid 2px #E5E7EB;
+    
+}
+
 button {
     background-color: #3882F6;
     border-radius: 5px;
@@ -142,7 +177,7 @@ button {
     padding-bottom: 5px;
     padding-left: 22px;
     padding-right: 22px;
-    
+    height: auto;
 }
 
 p {
